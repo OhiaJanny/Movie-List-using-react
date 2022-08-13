@@ -2,28 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +13,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#my-form {
+  padding: 2rem;
+  background: #f4f4f4;
+}
+#my-form label {
+  display: block;
+}
+.gender,
+.courses,
+#inline {
+  display: inline-block !important;
+}
+#my-form input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 100% !important;
+  height: 5% !important;
+  padding: 8px !important;
+  margin-bottom: 10px !important;
+  border-radius: 5px !important;
+  border: 1px solid #ccc !important;
+}
+.btnn {
+  display: block !important;
+  width: 100% !important;
+  padding: 10px 15px !important;
+  border: 0 !important;
+  background: #333;
+  color: #fff;
+  border-radius: 5px !important;
+  margin: 5px 0 !important;
+}
+.btnn:hover {
+  background: #444 !important;
+}
+.not {
+  font-size: 60px;
 }
